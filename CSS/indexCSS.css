@@ -30,6 +30,7 @@ body{
 .header{
 	margin-top: 0px;
 	width: 100%;
+	fixed;
 }
 
 .logo{
@@ -59,7 +60,7 @@ span{
 }
 
 h1{
-	font-size: 80px;
+	font-size: 0px;
 	color: white;
 	text-align: center;
 	clear: both;
@@ -78,14 +79,14 @@ h2{
 #head{
 	width: 100%;
 	height: 350px;
-	background-image: url(../images/PittStatue.jpg);
+	background-image: url(../images/pncpark.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
 .about{
-	padding-top: 100px;
+	padding-top: 65px;
 }
 
 .txtAbout{
@@ -170,6 +171,15 @@ input.submit{
 
 input.submit:hover{
 	text-decoration: underline;
+}
+
+#head2{
+	width: 100%;
+	height: 350px;
+	background-image: url(../images/mtwash.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 /* About Me Section */
