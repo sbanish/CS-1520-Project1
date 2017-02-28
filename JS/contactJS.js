@@ -1,3 +1,4 @@
+// Note - for the second part of this project I am going to have all of this information email via PHP
 function submitFunction()
 {
 	if (confirm("Are you sure you want to submit this information?")==true)
