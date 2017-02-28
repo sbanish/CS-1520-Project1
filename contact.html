@@ -5,6 +5,7 @@
 		<meta charset="uft-8">
 		<link rel="stylesheet" href="./css/indexCSS.css">
 		<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+		<script src="./JS/contactJS.js"></script>
 	</head>
 	
 	<body>
@@ -34,20 +35,20 @@
 						
 						<div class="contact">
 							<h4>Contact Me</h4>
-							<form class="contact" name="form" method="post" action="form.php">
+							<form class="contact" name="form" method="post">
 								<label for="name">Name</label><br>
-								<input class="text" name="name" type="text"/>
+								<input class="text" name="name" id="name" type="text"/>
 								<br><br>
 								
 								<label for="email">Email</label><br>
-								<input class="text" name="email" type="text"/>
+								<input class="text" name="email" id="email" type="text"/>
 								<br><br>
 								
 								<label for="message">Message</label><br>
-								<textarea class="message" name="message"/></textarea>
+								<textarea class="message" name="message" id="message"/></textarea>
 								<br><br>
 								
-								<input class="submit" name="submit" type="submit" value="Submit"/>
+								<input class="submit" name="submit" type="submit" value="Submit" onclick="submitFunction()"/>
 							</form>
 						</div>
 					</div>
